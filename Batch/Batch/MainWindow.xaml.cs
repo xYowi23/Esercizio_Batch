@@ -1,5 +1,8 @@
 ﻿using Batch.Models;
 using Batch.Repo;
+using MongoDB.Bson;
+using MongoDB.Bson.IO;
+using MongoDB.Driver;
 using System.IO;
 using System.Text;
 using System.Text.Json;
@@ -13,6 +16,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Path = System.IO.Path;
+using Newtonsoft.Json;
+using JsonSerializer = System.Text.Json.JsonSerializer;
+using JsonConvert = Newtonsoft.Json.JsonConvert;
+using Microsoft.VisualBasic;
 
 namespace Batch
 {
@@ -104,6 +111,57 @@ namespace Batch
 
             }
 
+        }
+
+        private void BtnTrasferimento_Click(object sender, RoutedEventArgs e)
+        {
+            var client = new MongoClient("mongodb://localhost:27017");
+            var database = client.GetDatabase("TaskBatch");
+            var collection = database.GetCollection<BsonDocument>("Persona");
+
+
+            string Personapath = "C:\\Users\\Utente\\Desktop\\Persona.csv";
+            string CodFispath = "C:\\Users\\Utente\\Desktop\\CodFiscale.csv";
+          
+
+
+            try
+            {
+                var jsonPersone = File.ReadAllText(Personapath);
+                var persone = JsonConvert.DeserializeObject<List<Persona>>(jsonPersone);
+
+                var jsonCodici = File.ReadAllText(CodFispath);
+                var codiciFiscali = JsonConvert.DeserializeObject<List<CodiceFiscale>>(jsonCodici);
+
+                if (persone is not null && codiciFiscali is not null)
+                foreach ( var persona in persone)
+                {
+                    var codice = codiciFiscali.FirstOrDefault(c => c.PersonaRiff == persona.IdPersona);
+
+                        var document = new BsonDocument
+                        {
+                             { "nome", persona.Nome },
+                             { "cognome", persona.Cognome },
+                             { "email", persona.Email },
+                              { "telefono", persona.Telefono },
+                             { "cod_fis", new BsonDocument
+                              {
+                                { "codice", codice?.CodiceFis ?? string.Empty },
+                                { "data_emis", codice?.DataEmis.ToString("yyyy-MM-dd") ?? string.Empty }, // Converti DateOnly a string
+                                { "data_scad", codice?.DataScad.ToString("yyyy-MM-dd") ?? string.Empty }  
+                              }
+                             }
+                        };
+                        collection.InsertOne(document);
+                }
+
+                     MessageBox.Show("Dati inseriti correttamente!");
+
+            }
+            catch(Exception ex)
+                 {
+                    MessageBox.Show(ex.Message);
+                 }
         }
     }
 }

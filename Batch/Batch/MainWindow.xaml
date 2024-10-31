@@ -21,6 +21,9 @@
             <Button x:Name="BtnScriviCodFis" Width="182" Height="44" Margin="10" FontSize="16" Click="BtnScriviCodFis_Click">
                 Crea File Cod Fiscale
             </Button>
+            <Button x:Name="BtnTrasferimento" Width="194" Height="44" Margin="10" FontSize="16" Click="BtnTrasferimento_Click" >
+                Trasferimento a MongoDB
+            </Button>
         </StackPanel>
 
 

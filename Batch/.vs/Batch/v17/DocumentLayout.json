@@ -7,32 +7,32 @@
       "RelativeMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|solutionrelative:batch\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|c:\\users\\utente\\source\\batch\\batch\\batch\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|solutionrelative:batch\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|c:\\users\\utente\\source\\batch\\batch\\batch\\repo\\codfisrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|solutionrelative:batch\\repo\\codfisrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|c:\\users\\utente\\source\\batch\\batch\\batch\\repo\\irepolettura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|solutionrelative:batch\\repo\\irepolettura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|c:\\users\\utente\\source\\batch\\batch\\batch\\models\\codicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|solutionrelative:batch\\models\\codicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|c:\\users\\utente\\source\\batch\\batch\\batch\\repo\\personarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|solutionrelative:batch\\repo\\personarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|c:\\users\\utente\\source\\batch\\batch\\batch\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|solutionrelative:batch\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|c:\\users\\utente\\source\\batch\\batch\\batch\\models\\batchcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|solutionrelative:batch\\models\\batchcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|c:\\users\\utente\\source\\batch\\batch\\batch\\repo\\irepolettura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|solutionrelative:batch\\repo\\irepolettura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|c:\\users\\utente\\source\\batch\\batch\\batch\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|solutionrelative:batch\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|c:\\users\\utente\\source\\batch\\batch\\batch\\repo\\codfisrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|solutionrelative:batch\\repo\\codfisrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|c:\\users\\utente\\source\\batch\\batch\\batch\\repo\\personarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAB19F5-DB89-498B-B6E6-BC4D9601960A}|Batch\\Batch.csproj|solutionrelative:batch\\repo\\personarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,24 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 195,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\Models\\Persona.cs",
-              "RelativeDocumentMoniker": "Batch\\Models\\Persona.cs",
-              "ToolTip": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\Models\\Persona.cs",
-              "RelativeToolTip": "Batch\\Models\\Persona.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:30:36.793Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -69,14 +56,14 @@
               "RelativeDocumentMoniker": "Batch\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\MainWindow.xaml.cs",
               "RelativeToolTip": "Batch\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAYwFYAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAowKQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T14:40:12.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Batch\\MainWindow.xaml",
@@ -88,46 +75,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "Batch\\Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\Models\\Persona.cs",
+              "RelativeToolTip": "Batch\\Models\\Persona.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T09:30:36.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CodFisRepo.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\Repo\\CodFisRepo.cs",
               "RelativeDocumentMoniker": "Batch\\Repo\\CodFisRepo.cs",
               "ToolTip": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\Repo\\CodFisRepo.cs",
               "RelativeToolTip": "Batch\\Repo\\CodFisRepo.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAWwBsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T09:57:31.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "CodiceFiscale.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\Models\\CodiceFiscale.cs",
               "RelativeDocumentMoniker": "Batch\\Models\\CodiceFiscale.cs",
               "ToolTip": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\Models\\CodiceFiscale.cs",
               "RelativeToolTip": "Batch\\Models\\CodiceFiscale.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T09:32:05.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PersonaRepo.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\Repo\\PersonaRepo.cs",
               "RelativeDocumentMoniker": "Batch\\Repo\\PersonaRepo.cs",
               "ToolTip": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\Repo\\PersonaRepo.cs",
               "RelativeToolTip": "Batch\\Repo\\PersonaRepo.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T15:29:38.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IRepoLettura.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\Repo\\IRepoLettura.cs",
               "RelativeDocumentMoniker": "Batch\\Repo\\IRepoLettura.cs",
@@ -140,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "BatchContext.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Batch\\Batch\\Batch\\Models\\BatchContext.cs",
               "RelativeDocumentMoniker": "Batch\\Models\\BatchContext.cs",

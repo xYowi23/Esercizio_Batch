@@ -132,3 +132,12 @@ C:\Users\Utente\source\Batch\Batch\Batch\obj\Debug\net8.0-windows\refint\Batch.d
 C:\Users\Utente\source\Batch\Batch\Batch\obj\Debug\net8.0-windows\Batch.pdb
 C:\Users\Utente\source\Batch\Batch\Batch\obj\Debug\net8.0-windows\Batch.genruntimeconfig.cache
 C:\Users\Utente\source\Batch\Batch\Batch\obj\Debug\net8.0-windows\ref\Batch.dll
+C:\Users\Utente\source\Batch\Batch\Batch\bin\Debug\net8.0-windows\DnsClient.dll
+C:\Users\Utente\source\Batch\Batch\Batch\bin\Debug\net8.0-windows\MongoDB.Bson.dll
+C:\Users\Utente\source\Batch\Batch\Batch\bin\Debug\net8.0-windows\MongoDB.Driver.dll
+C:\Users\Utente\source\Batch\Batch\Batch\bin\Debug\net8.0-windows\SharpCompress.dll
+C:\Users\Utente\source\Batch\Batch\Batch\bin\Debug\net8.0-windows\Snappier.dll
+C:\Users\Utente\source\Batch\Batch\Batch\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\Utente\source\Batch\Batch\Batch\obj\Debug\net8.0-windows\Batch.sourcelink.json
+C:\Users\Utente\source\Batch\Batch\Batch\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Utente\source\Batch\Batch\Batch\bin\Debug\net8.0-windows\Newtonsoft.Json.Bson.dll
