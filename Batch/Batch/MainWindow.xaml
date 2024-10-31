@@ -1,0 +1,51 @@
+﻿<Window x:Class="Batch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Batch"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <StackPanel Width="214">
+
+            <Button x:Name="BtnMostraPersona" Margin="10" Width="165" Height="44" FontSize="16" Click="BtnMostra_Click">
+                Mostra Dati Persona
+            </Button>
+            <Button x:Name="BtnScriviPersona" Width="182" Height="44" Margin="10" FontSize="16" Click="BtnScrivi_Click">
+                Crea File Persona
+            </Button>    
+            <Button x:Name="BtnMostraCodFis"  Margin="10" Width="175" Height="44" FontSize="16" Click="BtnMostraCodFis_Click"  >
+                Mostra Dati Cod Fiscale 
+            </Button>
+            <Button x:Name="BtnScriviCodFis" Width="182" Height="44" Margin="10" FontSize="16" Click="BtnScriviCodFis_Click">
+                Crea File Cod Fiscale
+            </Button>
+        </StackPanel>
+
+
+        <Grid Width="356">
+            <DataGrid Name="dbPersona" Background="#FFE2E1C2" AutoGenerateColumns="False" RowBackground="#FFC7BF6C" IsReadOnly="True"  >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Nome" Binding="{Binding Nome}" FontWeight="Bold" IsReadOnly="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Cognome" Binding="{Binding Cognome}" FontWeight="Bold"  IsReadOnly="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Email" Binding="{Binding Email}" FontWeight="Bold"  IsReadOnly="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Telefono" Binding="{Binding Telefono}" FontWeight="Bold"  IsReadOnly="True"></DataGridTextColumn>
+                    <!--<DataGridTextColumn Header="Codice Fis." Binding="{Binding CodFis}" FontWeight="Bold"  IsReadOnly="True"></DataGridTextColumn>-->
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <Grid>
+            <DataGrid x:Name="dbCodFis"  Background="#FFE2E1C2" AutoGenerateColumns="False" RowBackground="#FFC7BF6C" IsReadOnly="True" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="CodiceFis" Binding="{Binding CodiceFis}" FontWeight="Bold" IsReadOnly="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="DataEmis" Binding="{Binding DataEmis}" FontWeight="Bold" IsReadOnly="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="DataScad" Binding="{Binding DataScad}" FontWeight="Bold" IsReadOnly="True"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            
+        </Grid>
+        
+    </DockPanel>
+
+</Window>
